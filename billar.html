@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billar de josh</title>
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+<body onload="inicializar()">
+    <h1>No se llama pool</h1>
+    <table>
+        <tr>
+            <th>Mesa 1</th>
+            <th>Mesa 2</th>
+            <th>Mesa 3</th>
+        </tr>
+        <tr>
+            <td><img src="mesa_apagada.png" id="mesa1" onclick="on_off1(id);"></td>
+            <td><img src="mesa_apagada.png" id="mesa2" onclick="on_off1(id);"></td>
+            <td><img src="mesa_apagada.png" id="mesa3" onclick="on_off1(id);"></td>
+        </tr>
+        <tr>
+            <td>
+                Hora de inicio:
+                <form name="inicio">
+                    <input type="text" name="reloj" size="10">
+                </form>
+                <br>
+                Hora de final:
+                <form name="final">
+                    <input type="text" name="reloj" size="10">
+                </form>
+                <p id="total">Total:</p>
+            </td>
+            <td>
+                Hora de inicio:
+                <form name="inicio2">
+                    <input type="text" name="reloj" size="10">
+                </form>
+                <br>
+                Hora de final:
+                <form name="final2">
+                    <input type="text" name="reloj" size="10">
+                </form>
+                <p id="total2">Total:</p>
+            </td>
+            <td>
+                Hora de inicio:
+                <form name="inicio3">
+                    <input type="text" name="reloj" size="10">
+                </form>
+                <br>
+                Hora de final:
+                <form name="final3">
+                    <input type="text" name="reloj" size="10">
+                </form>
+                <p id="total3">Total:</p>
+            </td>
+        </tr>
+        <tr>
+            
+            <th><br><br>
+                Mesa 4</th>
+            <th><br><br>
+                Mesa 5</th>
+            <th><br><br>
+                Mesa 6</th>
+        </tr>
+        <tr>
+            <td><img src="mesa_apagada.png" id="mesa4" onclick="on_off1(id);"></td>
+            <td><img src="mesa_apagada.png" id="mesa5" onclick="on_off1(id);"></td>
+            <td><img src="mesa_apagada.png" id="mesa6" onclick="on_off1(id);"></td>
+        </tr>
+        <tr>
+            <td>
+                Hora de inicio:
+                <form name="inicio4">
+                    <input type="text" name="reloj" size="10">
+                </form>
+                <br>
+                Hora de final:
+                <form name="final4">
+                    <input type="text" name="reloj" size="10">
+                </form>
+                <p id="total4">Total:</p>
+            </td>
+            <td>
+                Hora de inicio:
+                <form name="inicio5">
+                    <input type="text" name="reloj" size="10">
+                </form>
+                <br>
+                Hora de final:
+                <form name="final5">
+                    <input type="text" name="reloj" size="10">
+                </form>
+                <p id="total5">Total:</p>
+            </td>
+            <td>
+                Hora de inicio:
+                <form name="inicio6">
+                    <input type="text" name="reloj" size="10">
+                </form>
+                <br>
+                Hora de final:
+                <form name="final6">
+                    <input type="text" name="reloj" size="10">
+                </form>
+                <p id="total6">Total:</p>
+            </td>
+        </tr>
+    </table>
+    <script src="funciones.js"></script>
+</body>
+</html>
